@@ -1,0 +1,258 @@
+html {
+position: relative;
+min-height: 100%;
+}
+ body{
+   font-family: 'Comfortaa', cursive;
+   margin-bottom: 60px;
+   background: #f9f9f9;
+ }
+ .h1 {
+   /* font-family: 'Kaushan Script', cursive;
+   color: 000;
+   font-weight: bold; */
+   font-size: 2.5rem;
+   color:#39A38F;
+ }
+ h2,h3,h4,h5,h6
+ {
+   color:#39A38F;
+ }
+
+ p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+ /* .jumbotron {
+    /* padding: 2rem 1rem; */
+    /* margin-bottom: 2rem; */
+    /* background-color: #eceeef; */
+    /* border-radius: .3rem; */
+    /* background: linear-gradient(75deg, #a8d5f4, #ffb3f5); */
+/* } */
+/* .jumbotron h1{
+  font-family: 'Kaushan Script', cursive;
+  color: 000;
+  font-weight: bold;
+  text-align: center;
+}  */
+
+ .navbar{
+   /* margin-bottom: 20px; */
+ }
+
+ .navbar-brand{
+       display: inline-block;
+       padding-top: 0.5rem;
+       padding-bottom: 0.5rem;
+       margin-right: 1rem;
+       font-size: 1rem;
+       color: #39A38F;
+       font-weight: bold;
+ }
+
+ section.featured-posts .image img {
+    width: 100%;
+    height: auto !important;
+}
+
+ .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+    color: #39A38F;
+    border-bottom: 5px solid #39A38F;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 3px 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #39A38F;
+    text-align: inherit;
+    white-space: nowrap;
+    background: #f9f9f9;
+    /* border: 1px solid #39A38F; */
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #f9f9f9;
+    text-decoration: none;
+    background-color: #39A38F;
+}
+
+
+
+.form-spacing-top{
+  margin-top: 30px;
+}
+
+.table td {
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+    text-align: justify;
+    font-size: 12px;
+}
+ .table th {
+   padding: .50rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+
+}
+
+.table th.green{
+    color: #39A38F;
+    /* text-align: center; */
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #39A38F;
+    background-color: #fff;
+    border: 1px solid #39A38F;
+}
+
+.page-link:focus, .page-link:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #39A38F;
+    border-color: #39A38F;
+}
+
+.page-item.active .page-link {
+    z-index: 2;
+    color: #fff;
+    background-color: #39A38F;
+    border-color: #39A38F;
+}
+.page-item.disabled .page-link {
+    color: #39A38F;
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #39A38F;
+}
+
+/* background: #f2f2f2; */
+/* background: #6d6e70; */
+
+.card{
+  /* color: #f2f2f2;
+  padding:10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; */
+}
+
+.card-header {
+    /* padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #6d6e70;
+    border-bottom: 1px solid rgba(0,0,0,.125); */
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #39A38F;
+    border-color: #39A38F;
+}
+
+.btn-primary:hover {
+    color: #39A38F;
+    background-color: #fff;
+    border-color: #39A38F;
+}
+
+.btn-secondary {
+    color: #292b2cb8;
+    background-color: #fff;
+    border-color: #39A38F;
+}
+
+
+
+.badge-info
+ {
+    background-color:#fff ;
+    color: #39A38F;
+    padding: 5px;
+    font-weight: bold;
+}
+.comment{
+  margin-bottom: 40px;
+}
+img.author-image
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.author-name{
+  float: left;
+  margin-left: 15px;
+}
+
+.author-name>h4{
+  margin: 5px 0px;
+}
+.author-time
+ {
+  font-size: 11px;
+  font-style: italic:
+  color:#aaa;
+}
+
+.comment-content{
+  clear: both;
+  margin-left: 65px;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+#backend-comment{
+  margin-top:50px;
+}
+
+
+/*
+ .dl-horizontal dd:after {
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+/* dl {
+    margin: 10px 0;
+}
+
+dt {
+    margin: 0 0 4px 0;
+    float: left;
+    clear: left;
+    width: 28%;
+}
+
+dd {
+    float: left;
+    width: 71%;
+    margin: 0 0 4px 1%;
+} */
+
+.footer
+{
+/* position: absolute;
+bottom: 0;
+width: 100%;
+/* Set the fixed height of the footer here */
+/* height: 60px;
+line-height: 60px; /* Vertically center the text there */
+/* background-color: #f5f5f5; */ */ */
+}
+
+/* .footer span{
+  color:#39A38F;
+} */
